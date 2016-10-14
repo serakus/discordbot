@@ -1,0 +1,19 @@
+{
+  "name": "pingbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^9.3.0",
+    "feedparser": "^1.1.5",
+    "request": "^2.75.0"
+  },
+  "engines": {
+    "node": "6.1.0"
+  }
+}

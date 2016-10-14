@@ -1,0 +1,57 @@
+{
+	"token" : "bot_token",
+	"whitelist" : ["username_private_commands"],
+	"announcement_channel" : "channelname_rss_feeds",
+	"main_channel": "channel_with_all_members",
+	"mute_role" : "role_always_muted",
+	"command_prefix" : "!",
+	"announcement_interval" : 900000,
+	"timeout" : 5000,
+	"magic_responses" : [ "It is certain",
+						 "It is decidedly so",
+						 "Without a doubt",
+						 "Yes, definitely",
+						 "You may rely on it",
+						 "As I see it, yes",
+						 "Most likely", 
+						 "Outlook good", 
+						 "Yes", 
+						 "Signs point to yes", 
+						 "Reply hazy try again", 
+						 "Ask again later",
+						 "Better not tell you now",
+						 "Cannot predict now",
+						 "Concentrate and ask again",
+						 "Don\"t count on it",
+						 "My reply is no",
+						 "My sources say no",
+						 "Outlook not so good",
+						 "Very doubtful"
+	],
+	"ping_responses" : ["response_when_pinged"],
+	"troll_responses" : ["reponse_for_troll_command"],
+	"timeout_message" : "Please wait 5 seconds between commands!",
+	"help_command" : "help",
+	"rss_feeds" : {
+		"eve-devblog": {
+			"announcement" : true,
+        	"description" : "gets the latest dev blog for eve",
+        	"url" : "https://newsfeed.eveonline.com/en-US/2/articles/page/1/20"
+	    },
+	    "eve-updates": {
+	    	"announcement" : true,
+	        "description" : "gets the latest update on eve-updates",
+	        "url" : "http://updates.eveonline.com/rss/"
+	    },
+	    "eve-reddit": {
+	    	"announcement" : false,
+	        "description" : "get the top reddit post on /r/eve",
+	        "url" : "https://www.reddit.com/r/Eve/top/.rss"
+	    },
+	    "cringe": {
+	    	"announcement" : false,
+	        "description" : "get the newest reddit post from /r/cringeanarchy",
+	        "url" : "https://www.reddit.com/r/cringeanarchy/new/.rss?sort=new"
+	    }
+	}
+}
